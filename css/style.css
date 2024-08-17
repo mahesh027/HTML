@@ -1,0 +1,39 @@
+/* universal selector */
+*{
+    color:blue
+ }
+
+/* type selector */
+h1
+{
+    color:orange ;
+}
+h2,h3{color:green !important;}
+
+/* id selector(class selectr is preferred) */
+#softdev{ color:green;}
+
+/* class selector */
+.greentext
+{
+    color:darkred;
+}
+
+/* child selctor */
+div>p{
+    color:black;
+}
+
+/* descendant selector */
+div a
+{
+    color:pink;
+}
+
+/* sibling selector */
+h1~h4{
+    color:darkorchid
+}
+
+/* Adjacent sibling selector */
+h1+h2{color:aqua;}
